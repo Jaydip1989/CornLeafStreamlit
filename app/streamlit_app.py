@@ -23,7 +23,7 @@ def main():
         page_title="Corn Leaf Disease Classification",
         page_icon=":plant-doctor:"
     )
-    set_background('/Users/dipit/Image Data/Corn_leaf/bg/corn_field.png')
+    set_background('bg/corn_field.png')
     st.title("Corn Leaf Image Classifier")
     print("")
     file = st.file_uploader("Please upload a Corn leaf file", type=['jpg', 'jpeg', 'png'])
